@@ -70,10 +70,11 @@ html{
 	top: -2.5rem;
 	right: -5rem;
 	transition: transform 1s;
+	transform: rotateZ(-45deg);
 }
 
 .container.change .shoe-1{
-	transform: translateX(-60rem) rotateZ(-45deg);
+	transform: translateX(-60rem) rotateZ(0deg);
 }
 
 .shoe-2{
@@ -198,7 +199,7 @@ html{
 .price{
 	width: 16rem;
 	height: 4rem;
-	background-color: skyblue;
+	background-color: rgb(5, 3, 103);
 	color: #fff;
 	border-radius: .5rem;
 	position: absolute;
