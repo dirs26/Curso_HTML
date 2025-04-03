@@ -44,6 +44,12 @@ html{
 	transition: background 0.5s;
 }
 
+.card-top-text p{
+	font-size: 1.2rem;
+	color: #fff;
+	margin-bottom: 1rem;
+	padding-right: 12rem;
+}
 .container.change .card-top{
 	background: #25d393;
 }
